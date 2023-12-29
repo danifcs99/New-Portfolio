@@ -1,0 +1,21 @@
+.div-about{
+    width: 75%;
+    height: 80vh;
+    background: rgba(62, 61, 61, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+    border: 2px solid rgb(14, 251, 251);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 220px;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .div-about{
+        align-items: center;
+        width: 80%;
+        height: 80vh;
+        margin-left: 40px;
+    }
+}

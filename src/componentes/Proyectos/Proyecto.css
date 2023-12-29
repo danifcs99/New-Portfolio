@@ -1,0 +1,60 @@
+.div-proyecto{
+    display: flex;
+}
+
+.div-1 {
+    width: 22vw;
+    height: 40vh;
+    background-color: rgba(62, 61, 61, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid rgb(120, 230, 230);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 1);
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transform: scale(1);
+    transition: 1s;
+}
+.div-1:hover{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}
+
+.div-1 h2{
+    color: aliceblue;
+    font-size: x-large;
+}
+.div-1 p{
+    color: rgb(120, 230, 230);
+    margin-top: -5px;
+}
+.git{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.git a{
+    color: white;
+    transition: 1s;
+    &:hover{
+        color: gray;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .div-proyecto{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .div-1{
+       margin-top: 30px;
+       width: 25vh;
+    }
+}

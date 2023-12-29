@@ -1,0 +1,34 @@
+.div-imagen {
+    position: absolute;
+    top: 20vh;
+    left: 44vw;
+    width: 18vw;
+    height: 18vw;
+    border-radius:31%;
+    border: 2px solid rgb(0, 255, 255);
+
+    padding: 5px;
+    background-color: rgba(83, 82, 82, 0.3);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-imagen img{
+    width: 13.5vw;
+    height: auto;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .div-imagen{
+        left: 24%;
+        top: 35%;
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .div-imagen img{
+        width: 30.8vw;
+    }
+}
