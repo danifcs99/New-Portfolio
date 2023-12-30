@@ -135,7 +135,46 @@
     margin-left: 15px;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 667px) {
+    /* Estilos específicos para teléfonos medianos */
+    #about{
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+
+    #texto{
+        font-size: 2.65vw;
+    }
+
+    #raya{
+        width: 10vh;
+    }
+
+    .boton-container{
+        top: 42vh;
+    }
+
+    .boton-container div{
+        width: 25%;
+        font-size: 9px; 
+        margin-left: 7vw;
+    }
+
+    .boton-container div svg{
+        width: 23px;
+    }
+
+    .botones button{
+        font-size: 2.5vw;
+    }
+
+    #skills{
+        font-size: 18px;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
     #about{
         margin-bottom: 2px;
         margin-top: 10px;
