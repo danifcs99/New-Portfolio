@@ -54,10 +54,9 @@
     margin-left: 50px;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
-    /* Estilos específicos para teléfonos medianos */
+@media (max-width: 600px) {
     .div-boton{
-        margin-top: 25%;  
+        margin-top: 25%;
     }
 
     .div-boton::before{
@@ -71,23 +70,6 @@
     }
 
     .redes a{
-        font-size: 45px;
-        margin-left: 47px;
-    }
-}
-
-@media (min-width: 414px) and (max-width: 736px) {
-    .div-boton{
-        margin-top: 25%;
-    }
-
-    .div-boton::before{
-        content: '';
-        width: 240%;
-        height: 240%;
-        position: absolute;
-        background: linear-gradient(whitesmoke, #39bda7);
-        transform-origin: center;
-        animation: rotate 5s linear infinite;
+        margin-left: 50px;
     }
 }

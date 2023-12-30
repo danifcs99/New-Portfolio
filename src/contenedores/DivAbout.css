@@ -11,22 +11,12 @@
     margin-left: 220px;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
-    /* Estilos específicos para teléfonos medianos */
-    .div-about{
-        align-items: center;
-        width: 80%;
-        height: 650px;
-        margin-left: 40px;
-    }
-}
-
-@media (min-width: 414px) and (max-width: 736px) {
+@media (max-width: 600px) {
     .div-about{
         align-items: center;
         width: 80%;
         height: 750px;
-        margin-left: 40px;
+        margin-left: 55px;
     }
 }
 

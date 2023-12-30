@@ -62,7 +62,7 @@
     content: none; 
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 600px) {
     
     .header nav{
         width: 100%;
@@ -70,7 +70,7 @@
         align-items: center;
         padding: 10px;
         text-align: center;
-        font-size: 11px;
+        font-size: 13px;
     }
     .header .no-animacion{
         display: none;

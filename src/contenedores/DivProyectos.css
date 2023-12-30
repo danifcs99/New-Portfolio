@@ -21,25 +21,12 @@
     margin-top: 2%;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
-    /* Estilos específicos para teléfonos medianos */
-    .div-proyectos{
-        align-items: center;
-        width: 80%;
-        height: 1050px;
-        margin-left: 40px;
-    }
-    #texto-proyecto{
-        margin-bottom: -10px;
-    }
-}
-
-@media (min-width: 414px) and (max-width: 736px) {
+@media  (max-width: 600px) {
     .div-proyectos{
         align-items: center;
         width: 80%;
         height: 1400px;
-        margin-left: 40px;
+        margin-left: 55px;
     }
     #texto-proyecto{
         margin-bottom: -10px;

@@ -20,28 +20,15 @@
     height: auto;
 }
 
-
-@media (max-width: 375) {
+@media (max-width: 600px) {
     .div-imagen{
         left: 24%;
-        top: 35%;
+        top: 38%;
         width: 40vw;
         height: 40vw;
     }
 
     .div-imagen img{
-        width: 30.8vw;
-    }
-}
-@media (min-width: 321px) and (max-width: 768px) {
-    .div-imagen{
-        left: 24%;
-        top: 35%;
-        width: 40vw;
-        height: 40vw;
-    }
-
-    .div-imagen img{
-        width: 30.8vw;
+        width: 30.2vw;
     }
 }
