@@ -23,12 +23,12 @@
 @media (max-width: 600px) {
     .div-imagen{
         left: 24%;
-        top: 38%;
+        top: 40%;
         width: 40vw;
         height: 40vw;
     }
 
     .div-imagen img{
-        width: 30.2vw;
+        width: 30.4vw;
     }
 }

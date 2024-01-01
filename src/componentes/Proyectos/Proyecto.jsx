@@ -20,7 +20,7 @@ function Proyecto(){
             <div className='div-1'>
             
             <img src={Imagen2} alt='padelquizz' style={{ width: '90%' }}/>
-            <h2 id='titulo'>PadeQuizz</h2>
+            <h2 id='titulo'>PadelQuizz</h2>
             <p>HTML, CSS, JAVASCRIPT</p>
             <div className='git'><a href='https://github.com/danifcs99/PadelQuizz'><FontAwesomeIcon icon={faGithub}/></a></div>
 

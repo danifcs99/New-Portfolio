@@ -56,7 +56,9 @@
 
 @media (max-width: 600px) {
     .div-boton{
+        height: 45vh;
         margin-top: 25%;
+        margin-bottom: 25%;
     }
 
     .div-boton::before{
@@ -70,6 +72,8 @@
     }
 
     .redes a{
-        margin-left: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 40px;
     }
 }
